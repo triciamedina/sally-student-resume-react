@@ -21,14 +21,50 @@
             function App(props) {
                 console.log(props)
                 return (
-                    <header>
-                        
-                    </header>
+                    <div>
+                        <header>
+                            <h1>Sally Student</h1>
+                            <p>I am an aspiring full stack web developer. I love cats, coding, and crocheting.</p>
+                        </header>
+                        <main>
+                            <section>
+                                <header>
+                                    <h2>Education</h2>
+                                </header>
+                                <h3>University of California, Berkeley</h3>
+                                <p>2004-2008</p>
+                                <p>Bachelor of Arts in Computer Science</p>
+                            </section>
+                            <section>
+                                <header>
+                                    <h2>Work Experience</h2>
+                                </header>
+                                <h3>Software Engineer, Pinterest</h3>
+                                <p>2009-2012</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a pellentesque.</p>
+                                <h3>Software Engineering Intern, Yelp</h3>
+                                <p>2008-2009</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a pellentesque.</p>
+                            </section>
+                            <section>
+                                <header>
+                                    <h2>Contact Info</h2>
+                                </header>
+                                <address>
+                                    <p>
+                                        <a href="mailto:sallystudent@email.com">sallystudent@email.com</a><br/>
+                                        <a href="tel:+1-234-567-8900">+1-234-567-8900</a>
+                                    </p>
+                                </address>
+                                <img src="https://i.imgur.com/1bMj7kB.jpg" alt="Sally Student and her cat Jones" width="300px" />
+                            </section>
+                        </main>
+                     </div>
                 );
             }
 
             ReactDOM.render(
-                <App />
+                <App />,
                 document.querySelector('#application-root')
             );
         </script>
