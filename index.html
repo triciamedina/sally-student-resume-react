@@ -23,7 +23,7 @@
                 return (
                     <div>
                         <header>
-                            <h1>Sally Student</h1>
+                            <h1>{props.studentName}</h1>
                             <p>I am an aspiring full stack web developer. I love cats, coding, and crocheting.</p>
                         </header>
                         <main>
@@ -64,7 +64,7 @@
             }
 
             ReactDOM.render(
-                <App />,
+                <App studentName='Sally Student' />,
                 document.querySelector('#application-root')
             );
         </script>
